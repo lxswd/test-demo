@@ -9,7 +9,7 @@ const Demo3 = () => import('../views/Demo3.vue')
 Vue.use(VueRouter)
 
 const routes = [
-    {path: '/', redirect: '/demo3'},
+    {path: '/', redirect: '/home'},
     {path: '/home', component: Home},
     {path: '/demo1', component: Demo1},
     {path: '/demo2', component: Demo2},
