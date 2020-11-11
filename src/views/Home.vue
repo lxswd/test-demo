@@ -27,6 +27,7 @@ export default {
     color: #fff5f5;
     border-radius: 10px;
     margin: 10px;
+    text-decoration: none;
 
     &:active{
         background-color: rgb(115, 142, 182);
