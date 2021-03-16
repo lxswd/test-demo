@@ -3,7 +3,7 @@
         <router-link class="demo" to="/demo1">交错动画</router-link>
         <router-link class="demo" to="/demo2">六边形</router-link>
         <router-link class="demo" to="/demo3">播放视屏</router-link>
-        <router-link class="demo">测试</router-link>
+        <router-link class="demo" to="/demo4">登录注册</router-link>
     </div>
 </template>
 <script>

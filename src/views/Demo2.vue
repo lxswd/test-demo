@@ -1,3 +1,4 @@
+/* 六边形 */
 <template>
     <div class="demo2">
         <div class="list" v-for="item in array" :key="item.id">
