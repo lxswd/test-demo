@@ -19,7 +19,7 @@
                     <h2 class="form_title">Sign In</h2>
                     <input type="email" placeholder="Email" class="input">
                     <input type="password" placeholder="Password" class="input">
-                    <a href="#" class="line">Forgot your password?</a>
+                    <a href="#" class="link">Forgot your password?</a>
                     <button class="btn">Sign In</button>
                 </form>
             </div>
@@ -76,5 +76,30 @@ export default {
     background-position: center;
     background-color: var(--white);
     height: 100vh;
+}
+
+.form_title {
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1.25rem;
+}
+
+.link {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    text-decoration: none;
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: var(--button-radius);
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+                0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    /* width: 100%; */
+    height: var(--max-height);
+    max-width: var(--max-width);
+    overflow: hidden;
+    position: relative;
 }
 </style>
