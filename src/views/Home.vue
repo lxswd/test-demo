@@ -4,6 +4,11 @@
         <router-link class="demo" to="/demo2">六边形</router-link>
         <router-link class="demo" to="/demo3">播放视屏</router-link>
         <router-link class="demo" to="/demo4">登录注册</router-link>
+        <router-link class="demo" to="/demo5">js分割文本</router-link>
+        <router-link class="demo" to="/demo6">不同位置的交错动画</router-link>
+        <router-link class="demo" to="/demo7">雪(随机粒子动画)</router-link>
+        <router-link class="demo" to="/demo8">按钮(伪类和伪元素)</router-link>
+        <router-link class="demo" to="/demo9">按钮(绝对定位实现多重边框)</router-link>
     </div>
 </template>
 <script>
